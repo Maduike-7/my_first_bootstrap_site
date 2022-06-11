@@ -1,0 +1,452 @@
+* {
+    /* background: #dedede; */
+    font-family:    arial;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+html{
+    /* font-size: 10px; */
+      overflow-x: hidden;
+}
+
+.nav-brand {
+    font-size: 2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-brand ,a{
+   text-decoration: none;
+}
+
+.brand {
+    top: 0%;
+    color: red;
+    position: fixed;
+    width: 100vw;
+    background:   whitesmoke ;
+    font-size: 2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    
+    width: 80px;
+    height: 8vh;
+}
+
+.navbar-toggler-icon:hover {
+ 
+}
+
+.nav-link {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+   
+}
+
+.nav-link:hover {
+    color: black;
+    font-style: italic;
+}
+
+.login-nav {
+    margin-left: 50%;
+}
+
+.navbar-toggler {
+    display: flex;
+}
+
+.search {
+    height: 2.2rem;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-left: 35%;
+    border: 2px solid #000;
+    color: #000;
+    padding-left: 1rem;
+}
+
+.search::placeholder {
+ 
+}
+
+.btn0 {
+    height: 40px;
+    width: 30%;
+    outline: none;
+    background: #000;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    margin-top: 5px;
+    border: none;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    outline: none;
+    font-weight: 700; 
+    background: black;
+    color: white;
+    border-radius: 60px;
+    border: none;
+}
+
+
+.btn1:hover {
+    background-color: red;
+    transition: 0.5s;
+    box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+
+}
+
+
+
+.btnck {
+    height: 45px;
+    width: 35%;
+    outline: none;
+    font-weight: 700; 
+    background-image: url(images/cak.jpg);
+    color: white;
+    border-radius: 60px;
+    border: none;
+}
+    
+
+button {
+    font-size: 1rem;
+}
+
+.btnck a {
+   text-decoration: none;
+   font-style: none;
+   color: #fff;
+}
+
+.btnck  {
+    text-decoration: #ff0000;
+    font-style: none;
+    color: #fff;
+ }
+ 
+
+.btnck:hover {
+    color: #000;
+    background-image: url(images/ck.jpg);
+    transition: 0.5s;
+    box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+
+}
+
+
+.main {
+    background-image: url(images/main2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    color: #fff;
+
+}
+
+.main h1 {
+    font-weight:  700;
+    font-size: 4rem;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.gif h5 {
+    font-weight: 700;
+    text-shadow:0vmax ;
+    font-style: italic;
+   
+}
+
+.card:hover {
+    box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+
+
+}
+
+.about  img {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.about p {
+    width: 50%;
+    text-align: left;
+  align-items: center;
+}
+
+#india {
+    width: 74%;
+}
+.india> img:hover {
+    box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+
+}
+
+
+.about> h6 {
+    text-transform: capitalize;
+}
+
+ video {
+   
+    width: 105%;
+    height: 50vh;
+    background-color: #000;
+    border: 10px solid #000;
+    border-radius: 50px;
+    margin: 0% auto;
+    padding:0% auto;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    
+}
+
+.video-cake{
+  
+    background-color: grey;
+    justify-content: space-between;
+}
+
+.h6 {
+    text-transform: capitalize;
+}
+
+  .card-top {
+    height: 60vh;
+    width: 100%;
+ }
+
+.btn3 {
+    height: 45px;
+    width: 45%;
+    outline: none;
+    font-weight: 700; 
+    background: #ffa500;
+    color: #fff;
+    border-radius: 60px;
+    margin: auto;
+    border: none;
+}
+
+.btn3 a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn3 a:visited:hover {
+    color: #ff0000;
+}
+.card-top img {
+    width: 100%;
+    height: 60%;
+
+}
+.card-body img {
+    background: transparent;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+
+}
+
+
+.image {
+    color: #fff;
+}
+
+.apple {
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/frame\ 2.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.news{
+    color:  #fff;
+    background-color: black;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background:  #fff;
+    margin-left: -10px;
+    border: 2px solid  #fff;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid  #fff;
+    outline: none;
+    background: transparent;
+    color:  #fff;
+    margin-top: 20px;
+    font-weight: 600;
+  
+}
+
+.news h6 p {
+    color:  #fff;
+}
+
+.news::placeholder {
+    color:  #ffffff;
+ 
+}
+
+.new p {
+    margin: 0%;
+} 
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.cart-image {
+    display: flex;
+}
+
+.cart-image> img {
+    width: 40%;
+    height: 60vh;
+    border-radius: 60px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.cart-image p {
+    display: none;
+}
+
+@media screen  and (max-width: 500px)  {
+    .first {
+      margin-bottom: 5px;
+    }
+    
+      .navbar {
+        background-color: #000;
+    }
+    .gif h5 {
+        font-weight: 400;
+        text-shadow:0vmax ;
+        font-style: italic;
+        color: #fff;
+       
+    }
+    .btn1 {
+        height: 45px;
+        width: 35%;
+        outline: none;
+        font-weight: 700; 
+        background: #fff;
+        color: #000;
+        border-radius: 60px;
+    }
+    .card {
+      background: #000;
+     
+    }
+    .card:hover {
+        background: #fff;
+        box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: -4px 1px 27px -3px rgba(0,0,0,0.75);
+        
+      }
+      video {
+   
+        width: 105%;
+        height: 50vh;
+        background-color: #fff;
+        border: 10px solid #808080;
+        border-radius: 50px;
+       margin: 0% auto;
+       padding:0% auto;
+       justify-content: space-evenly;
+       margin-top: 5%;
+   }
+    
+}
+
+
+@media screen  and (max-width: 740.89px)  {
+  
+   .card-body img {
+    /* display: inline-block; */
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+
+}
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
