@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="js/bootstrap.bundle.min.js "></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,11 @@
    
 
         .container{
-            background-color: grey;
+            background-color: #000000;
         }
         input {
     height: 45px;
     width: 55%;
-   
     outline: none;
     background: #000;
     color:  #fff;
@@ -34,7 +33,7 @@
 .btn3 {
   color: #ffffff;
   text-transform: uppercase;
-  background-color: yellow;
+  background-color: red;
   border-radius: 30px;
 }
 
@@ -53,7 +52,7 @@
   height: 10vh;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: black;
+  background-color: red;
   border-radius: 30px;
 }
 
@@ -74,16 +73,17 @@
     }
   }
     input {
-    background: #000;
+    background: #fff;
     height: 45px;
     width: 55%;
     outline: none;
     padding: 1rem;
-    color:  #fff;
+    color:  #000000;
     margin-top: 20px;
     font-weight: 600;
     align-items: center;
-  
+   text-transform: capitalize;
+   font-size: 1.2rem;
 }
  
 
@@ -104,19 +104,22 @@ h6 {
   color:#fff;
 }
 .card {
-  background:#000;
+  background:#ffffff;
 
 }
 
-.c {
-  width: 50vw;
-  height: 60vw;
-}
 
+.submit {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 30%;
+  left: 42%;
+}
 
     </style>
      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" style="color: red;" href="index.html">Goody Shop</a>
+        <a class="nav-brand" style="color: red;" href="index.html">Goody Shop</a>
           
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
@@ -171,7 +174,7 @@ h6 {
           <input type="text" name="" placeholder="Enter Country" required>
 
           
-          <input class="mb-3" type="submit" name="" value="submit">
+          <input class="submit" type="submit" name="" value="submit">
 
          </div>
          </div>

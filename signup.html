@@ -7,124 +7,212 @@
  
     <!-- -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="css/styles.css">
      <script src="js/bootstrap.bundle.min.js "></script>
      <title>Sign Up</title>
 </head>
 <body>
-    <style>
-    body {
-        background: url(images/contact\ 3.jpg),no-repeat;
-        background-size: cover;
-        /* background-position: center; */
-        font-family: sans-serif;
-    
-    
+  <style>
+  body {
+    height: 100vh;
+    background: url(/images/login.jpg);
+      background-size: cover;
+     background-repeat: no-repeat;
+      font-family: sans-serif;
+      overflow-x: hidden;
+  
+}
 
-    }
+.nav-link {
+  position: relative;
+  right: 85%;
+}
+
+.loginbox {
+width: 500px;
+height: 670px;
+background: #000;
+color: #fff;
+top: 55%;
+left: 53%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+align-items: center;
+border-radius: 20px;
+}
+
+.login {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -30px;
+left: calc(50% - 50px)
+}
+
+h1 {
+margin: 0%;
+padding: 0 0 20px;
+text-align: center;
+font-size: 1.1rem;
+align-items: center;
+}
+
+.loginbox p{
+margin: 0%;
+padding: 0%;
+font-weight: bold;
+}
+
+.loginbox input {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+display: flex;
+justify-content: center;
+width: 40%;
+border: 0%;
+margin-left: 30%;
+outline: none;
+height: 5vh;
+background: #fff;
+color: #000;
+font-size: 18px;
+border-radius: 20px;
+align-items: center;
+margin-top: 40px;
+transform: scale(1.2);
+}
+    
+.loginbox input[type="submit"]:hover {
+cursor: pointer;
+background: #fb2525;
+color: #fff;
+}
+
+.loginbox a {
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+color: darkgrey;
+}
+
+.loginbox a:hover{
+ color: #ffc107  ;
+}
+
+.contact {
+ color: white; 
+
+}
+
+.nav-link {
+display: flex;
+color: black;
+
+}
+
+.nav-link:hover {
+color: red;
+}
+
+.serve {
+margin-top: 50px;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.serve a{
+font-size: 1.1rem;
+text-transform: capitalize;
+}
 
 
-    
-    .loginbox {
-      width: 320px;
-      height: 600px;
-      background: #000;
-      color: #fff;
-      top: 50%;
-      left: 50%;
-      position: absolute;
-      transform: translate(-50%,-50%);
-      box-sizing: border-box;
-      padding: 70px 30px;
-      margin-top: 60px;
-      margin-bottom: 40px;
-    }
-    
-    .login {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      position: absolute;
-      /* top: -50px; */
-      /* left: calc(50% - 50px) */
-    }
-    
-    h1 {
-      margin: 0%;
-      padding: 0 0 20px;
-      text-align: center;
-      font-size: 22px;
-    }
-    
-    .loginbox p{
-      margin: 0%;
-      padding: 0%;
-      font-weight: bold;
-    }
-    
-    .loginbox input {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    
-    .loginbox input[type="text"], input[type="password"] {
-      border: none;
-      border-bottom: 1px solid #fff;
-      background: transparent;
-      outline: none;
-      height: 40px;
-      color: #fff;
-      font-size: 16px;
-    }
-    
-    .contact {
-       color: white; 
-     
-    }
-    
-    .nav-link {
-      display: flex;
-      color: black;
-     
-    }
-    
-    .nav-link:hover {
-      color: red;
-    }
+@media all  and (max-width: 900px)  {
+
+body {
+  height: 120vh;
+}
+
+  .loginbox {
+width: 400px;
+height: 670px;
+background: #000;
+color: #fff;
+top: 70%;
+left: 53%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+align-items: center;
+border-radius: 20px;
+}
+
+.loginbox input[type="submit"]{
+display: flex;
+justify-content: center;
+width: 40%;
+border: 0%;
+margin-left: 30%;
+outline: none;
+height: 7vh;
+background: #fff;
+color: #000;
+font-size: 18px;
+border-radius: 20px;
+align-items: center;
+margin-top: 40px;
+}
+
+}
+
+
 </style>
-    
-    
-    </style>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" style="color: red;" href="index.html">Goody Shop</a>
-        
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
-      </button>
-    
-       <div class="collapse navbar-collapse" id="navbarscroll"> 
-        <ul class="navbar- nav m-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-    
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="trends.html">TRENDING</a>
-            </li>
-    
-            <li class="nav-item">
-              <a class="nav-link" href="#">Store</a>
-            </li>  
-         
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Login</a>
-            </li>
-          
-        </ul>
-       
-      </div>
-    </nav>
-    </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="text-center  container-fluid">
+  <a class="nav-brand" style="color: red;" href="index.html">Goody Shop</a>
+<img class="img" src="images/basket-of-fruits.png" alt="">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarScroll">
+  <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Trending</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Store</a>
+      </li>  
+   
+    <li class="login-item">
+      <a class="nav-link" href="login.html">Login</a>
+      </li>
+  </ul>
+</div>
+</nav>
+
+      </head>
     <body>
        <div class="loginbox">
          <img src="images/basket-of-fruits.png" class="login" alt="">
