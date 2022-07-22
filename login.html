@@ -23,10 +23,6 @@
 
 
 
-.nav-link {
-  position: relative;
-  right: 85%;
-}
 
 .loginbox {
   width: 500px;
@@ -143,7 +139,27 @@ h1 {
 }
 
 
-@media all  and (max-width: 500px)  {
+@media all  and (max-width: 900px)  {
+
+  body {
+  height: 125vh;
+}
+
+.loginbox {
+  width: 500px;
+  height: 500px;
+  background: #000;
+  color: #fff;
+  top: 70%;
+  left: 53%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  align-items: center;
+  border-radius: 20px;
+}
+
   
   .loginbox input[type="submit"]{
   display: flex;
